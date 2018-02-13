@@ -46,6 +46,7 @@ var paarseknop = function() {
     oranjeplaatjes.classList.toggle('paarseknop');
     geleplaatjes.classList.toggle('paarseknop');
     alles.classList.toggle('paarseknop');
+    paars.classList.toggle('paarseknop');
 
 }
 

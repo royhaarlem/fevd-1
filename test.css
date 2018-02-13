@@ -1,18 +1,17 @@
-
-
 section {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    columns: 31em;
+    margin-top: -1em;
+}
 
+
+body {
+    padding: 1em;
 }
 
 img {
-width: 32em;
-margin-left: 2em;
-    margin-bottom: 2em;
-    align-self: flex-start;
+    width: 33em;
+    margin-bottom: 1.5em;
+
 
 }
 
@@ -20,8 +19,6 @@ margin-left: 2em;
     text-align: center;
     margin-top: 5em;
     margin-bottom: 5em;
-
-
 }
 
 li {
@@ -33,11 +30,12 @@ li {
     transition-duration: .2s;
     box-shadow: 0 2px 1px rgba(0, 0, 0, .2);
     cursor: pointer;
+    margin-bottom: 2em;
 }
 
 li:hover {
-            transform: scale(1.2);
-            box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+    transform: scale(1.2);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
 }
 
 .green-images {
@@ -47,9 +45,11 @@ li:hover {
 .blue-images {
     display: none;
 }
+
 .purple-images {
     display: none;
 }
+
 .red-images {
     display: none;
 }
@@ -61,7 +61,6 @@ li:hover {
 .yellow-images {
     display: none;
 }
-
 
 .all-images.blauweknop {
     display: none;
@@ -87,33 +86,22 @@ li:hover {
     display: none;
 }
 
-
-
-
-
-
 .blue-images.blauweknop {
     display: block;
 }
 
-
-
-
-
 .blue-images.paarseknop {
     display: none;
 }
+
 .purple-images.paarseknop {
     display: block;
 }
 
-
-
-
-
 .purple-images.groeneknop {
     display: none;
 }
+
 .green-images.groeneknop {
     display: block;
 }
@@ -122,25 +110,21 @@ li:hover {
     display: none;
 }
 
-
-
-
-
 .green-images.rodeknop {
     display: none;
 }
+
 .red-images.rodeknop {
     display: block;
 }
+
 .purple-images.rodeknop {
     display: none;
 }
+
 .blue-images.rodeknop {
     display: none;
 }
-
-
-
 
 .red-images.oranjeknop {
     display: none;
@@ -149,7 +133,6 @@ li:hover {
 .orange-images.oranjeknop {
     display: block;
 }
-
 
 .blue-images.oranjeknop {
     display: none;
@@ -162,10 +145,6 @@ li:hover {
 .green-images.oranjeknop {
     display: none;
 }
-
-
-
-
 
 .orange-images.geleknop {
     display: none;
@@ -189,4 +168,11 @@ li:hover {
 
 .blue-images.geleknop {
     display: none;
+}
+
+
+@media screen and (min-width: 28.125em) {
+    img {
+        margin-right: 1em;
+    }
 }
