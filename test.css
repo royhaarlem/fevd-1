@@ -16,7 +16,6 @@ width: 32em;
 margin-left: 2em;
     margin-bottom: 2em;
     float: left;
-
 }
 
 .colors {
@@ -43,16 +42,41 @@ li:hover {
             box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
 }
 
-
 .purple-images {
-
+    display: none;
+}
+.green-images {
+    display: none;
+}
+.red-images {
     display: none;
 }
 
+
+.purple-images.blauweknop {
+    display: none;
+}
+.blue-images.blauweknop {
+    display: block;
+}
+.purple-images.paarseknop {
+    display: block;
+}
 .blue-images.paarseknop {
     display: none;
 }
-
-.purple-images.paarseknop {
+.green-images.paarseknop {
+    display: none;
+}
+.green-images.groeneknop {
+    display: block;
+}
+.purple-images.groeneknop {
+    display: none;
+}
+.green-images.rodeknop {
+    display: none;
+}
+.red-images.rodeknop {
     display: block;
 }
