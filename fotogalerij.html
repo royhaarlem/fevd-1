@@ -5,20 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="test.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700" rel="stylesheet">
 
-    <title>Color picker</title>
+    <title>Sorteren op kleur</title>
 </head>
 
 <body>
 
+    <img class="logo" src="images/logoanne.png" alt="">
+    <div class="zoeken">
+
+        <input class="search" type="text" placeholder="Zoek foto's">
+    </div>
+
+    <div class="zoekresultaten">
+<h2>35 resultaten</h2>
+        <h1>Landscape</h1>
+
+        </div>
+
+        <div class="sortby">
+
+            <ul class="sort">
+                <li>Populariteit</li>
+                <li>Nieuw</li>
+                <li class="selected">Kleur</li>
+                <li>Artiest</li>
+            </ul>
+        </div>
+
+
     <div class="colors">
         <ul>
-            <li class="blue" style="background-color:#5184c3"></li>
-            <li class="purple" style="background-color:#4f469c"></li>
-            <li class="green" style="background-color:#6abe53"></li>
-            <li class="red" style="background-color:#d43c3c"></li>
-            <li class="orange" style="background-color:#e57933"></li>
-            <li class="yellow" style="background-color:#edd24a"></li>
+            <li class="blue" style="background-color:#5184c3" onclick="highlight(this)"></li>
+            <li class="purple" style="background-color:#4f469c" onclick="highlight(this)"></li>
+            <li class="green" style="background-color:#6abe53" onclick="highlight(this)"></li>
+            <li class="red" style="background-color:#d43c3c" onclick="highlight(this)"></li>
+            <li class="orange" style="background-color:#e57933" onclick="highlight(this)"></li>
+            <li class="yellow" style="background-color:#edd24a" onclick="highlight(this)"></li>
         </ul>
     </div>
 

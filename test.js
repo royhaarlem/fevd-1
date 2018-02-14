@@ -112,3 +112,18 @@ var geleknop = function(){
 
 geel.addEventListener('click', geleknop);
 
+
+
+   function highlight(elem) {
+    var li = document.getElementsByTagName('li')
+    for (i = 0; i < li.length; i++) {
+        li[i].classList.remove('active');
+    }
+    elem.classList.add('active');
+}
+
+
+//Bron: https://stackoverflow.com/questions/26959219/javascript-onclick-addclass
+
+
+
