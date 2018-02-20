@@ -265,6 +265,9 @@ img {
     img {
         max-width: 92vw;
     }
+    .colors {
+    margin-left: -1.5em;
+}
 
 
 .sort li {
